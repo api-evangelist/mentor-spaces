@@ -1,7 +1,14 @@
 aid: mentor-spaces
 name: Mentor Spaces
-description: Mentor Spaces is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Mentor Spaces is a structured mentorship platform that helps nonprofits,
+  universities, and companies launch, manage, and measure mentorship programs at scale.
+  The software handles automated mentor-mentee matching, scheduling, communication,
+  and real-time outcome tracking so organizations can secure and renew grant funding
+  with funder-ready impact reports, improve student persistence and career outcomes,
+  engage alumni in time-bound structured mentorship, and run skills-based volunteering
+  and corporate CSR/ESG programs. A public developer API and custom integrations are
+  offered only on the enterprise Thrive tier (with SSO); no public API documentation
+  is published. Founded by Chris Motley and backed by Techstars.
 url: https://raw.githubusercontent.com/api-evangelist/mentor-spaces/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-founder: Chris Motley
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Mentorship
+- Nonprofits
+- Education
+- Volunteering
+- Impact Measurement
+- Workforce Development
+image: https://mentorspaces.com/og-image.png
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,20 @@ maintainers:
 common:
 - type: Website
   url: https://mentorspaces.com/
+- type: DomainSecurity
+  url: security/mentor-spaces-domain-security.yml
+- type: LLMsTxt
+  url: llms/mentor-spaces-llms.txt
+- type: Blog
+  url: https://mentorspaces.com/blog
+- type: Login
+  url: https://app.east.mentorspaces.com/
+- type: PrivacyPolicy
+  url: https://mentorspaces.com/privacy-policy
+- type: TermsOfService
+  url: https://mentorspaces.com/terms-of-service
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
